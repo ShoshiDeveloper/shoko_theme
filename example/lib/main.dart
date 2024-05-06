@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  SomeTheme.initTheme();
+  await ShokoThemeCore.initTheme();
   // ColorThemes.initialized(await rootBundle.loadString("assets/color_themes.json"));
 
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ThemeWidget(
+    return const ShokoThemeWidget(
       child: MaterialApp(
         home: BasePage(),
       )
@@ -40,7 +40,7 @@ class _BasePageState extends State<BasePage> {
             Container(
               width: 50,
               height: 25,
-              color: context.getColor(),
+              color: context.backgroud["brand"],
             ),
             ElevatedButton(onPressed: () async {
               await Navigator.push(context, MaterialPageRoute(builder: (context) => const SecondPage()));

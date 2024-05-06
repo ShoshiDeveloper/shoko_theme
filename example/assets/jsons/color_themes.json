@@ -1,0 +1,48 @@
+{
+    "light": {
+        "background": {
+            "default": "1,1,1,1",
+            "secondary": "1,1,1,1",
+            "success": "1,1,1,1",
+            "error": "1,1,1,1",
+            "brand": "1,1,1,1"
+        },
+        "content": {
+            "primary": "",
+            "secondary": "",
+            "tertiary": "",
+            "invertedPrimary": ""
+        },
+        "border": {
+
+        },
+        "actions": {
+            "active": "",
+            "deactive": "",
+            "pressed": ""
+        }
+    },
+    "dark": {
+        "background": {
+            "default": "250,0,250,1",
+            "secondary": "250,0,250,1",
+            "success": "250,0,250,1",
+            "error": "250,0,250,1",
+            "brand": "0,0,250,1"
+        },
+        "content": {
+            "primary": "",
+            "secondary": "",
+            "tertiary": "",
+            "invertedPrimary": ""
+        },
+        "border": {
+
+        },
+        "actions": {
+            "active": "",
+            "deactive": "",
+            "pressed": ""
+        }
+    }
+}
